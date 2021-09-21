@@ -6,13 +6,10 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@EqualsAndHashCode
-@ToString
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 @Entity
 @Table(name = "student_info")
 public class StudentInfo {
