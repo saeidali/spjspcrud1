@@ -13,10 +13,6 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
-@Getter
-@Setter
-@EqualsAndHashCode
 @Builder
 @Entity
 public class UserEntity {
