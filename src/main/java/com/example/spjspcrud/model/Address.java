@@ -6,12 +6,9 @@ import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
 
-@EqualsAndHashCode
-@ToString
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 @Entity
 public class Address {
     @Id
